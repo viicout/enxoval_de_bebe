@@ -42,3 +42,24 @@ filtros.forEach(filtro => {
     });
 
 });
+
+function copiarPix() {
+
+    const pixKey = document
+        .getElementById("pixKey")
+        .textContent
+        .trim();
+
+    navigator.clipboard.writeText(pixKey);
+
+    const mensagem = document.getElementById("copyMessage");
+
+    mensagem.classList.add("show");
+
+    setTimeout(() => {
+
+        mensagem.classList.remove("show");
+
+    }, 2500);
+
+}
