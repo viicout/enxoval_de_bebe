@@ -391,7 +391,7 @@ body {
 
 .intro {
 
-    padding: 110px 20px;
+    padding: 50px 20px;
 
     background: white;
 
@@ -947,8 +947,7 @@ footer {
 ========================================= */
 
 .pix-section {
-
-    padding: 110px 20px;
+    padding: 50px 20px;
 
     background: white;
 
@@ -972,7 +971,7 @@ footer {
 
     height: 65px;
 
-    margin: 0 auto 25px;
+    margin: 0 auto 50px;
 
     display: flex;
 
